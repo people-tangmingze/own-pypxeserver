@@ -21,7 +21,7 @@ class udp_server:
     def __init__(self, debug=False, log_file='server.log'):
         self.separate = 1
         self.path = r'C:\Users\Administrator\Downloads\own-pypxeserver\files'
-        self.kernel = 'ipxe-undionly.kpxe'
+        self.kernel = 'ipxe-x86_64.efi'
         self.menu = 'boot.ipxe'
         self.siaddr = '192.168.0.1'
         self.mask = '255.255.255.0'
